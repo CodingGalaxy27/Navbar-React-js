@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    height: 10vh;
+    flex: 1;
+    background-color: black;
+    gap:20px;
+    color: white;
+}
+.spicestxt{
+    color: green;
+}
+
+.navbarlist ul{
+    display: flex;
+    flex-direction: row;
+     gap:20px;
+     align-items: center;
+    
+
+}
+
+
+
+ .navbarlist li{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+   
+}
+.navbarlist  hr{
+    
+     border: none;
+     background: red;
+     align-items: center;
+     height: 3px;
+     width: 80%;
+   
+}
+.navbarlist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+} 
+
+.btnsign{
+    font-size: 20px;
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: green;
+    
+}
+.navbarbtn{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 230px;
+    align-content: center;
+   
+
+}
